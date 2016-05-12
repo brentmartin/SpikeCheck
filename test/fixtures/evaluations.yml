@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  answer: 1.5
+  completion: false
+  participation_id: 
+  question_id: 
+
+two:
+  answer: 1.5
+  completion: false
+  participation_id: 
+  question_id: 
