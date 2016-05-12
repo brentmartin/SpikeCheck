@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  relation: MyString
+  completion: false
+  user_id: 
+  survey_id: 
+
+two:
+  relation: MyString
+  completion: false
+  user_id: 
+  survey_id: 
