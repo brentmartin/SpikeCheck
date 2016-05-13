@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :questions
   resources :participations
   resources :surveys
   resources :assessments
