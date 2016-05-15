@@ -11,6 +11,7 @@
 20.times do
   registered_user = User.create(name:Faker::Name.name, location:Faker::Address.city + ", " + Faker::Address.state_abbr, email:Faker::Internet.domain_word + "@example.com", password: "password",  registration:true)
 end
+
 # [] Assessment seeds
 # [] Question seeds
 # [] Surveys seeds
