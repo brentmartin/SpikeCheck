@@ -159,8 +159,8 @@ html {
   background-size: cover;
 }
 
-body {  background:#7f7f7f;
-  background:rgba(0,0,0,0.7);
+body {
+  background:rgba(185,185,185,0.9);
   margin: 0;
 }
  h1 {
@@ -249,7 +249,7 @@ article {
    z-index: -1;
    box-shadow: 0 .5px 6px rgba(0, 0, 0, 0.05);
    border-radius: 3px;
-   background-color: #ffffff;
+   background-color :rgba(0,0,0,0);
    transition: all 200ms linear;
  }
 
