@@ -13,7 +13,7 @@
 end
 
 4.times do
-  assess = Assessment.create(heading:Faker::Name.title, intro:Faker::Company.catch_phrase)
+  assess = Assessment.create(title:Faker::Name.title, description:Faker::Company.catch_phrase)
   15.times do
     Question.create(body:Faker::Company.bs + "?", assessment_id: assess.id)
   end
