@@ -1,0 +1,11 @@
+<%= form_for @survey, :html => { :class => "form-horizontal survey" } do |f| %>
+
+  <div>
+    <div>
+      <%= f.submit nil, :class => 'submit-button' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                surveys_path, :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>

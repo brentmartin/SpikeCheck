@@ -1,0 +1,13 @@
+<h1>Evaluate stuff</h1>
+
+<%= form_for @survey do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+
+<%= form_for @survey do |f| %>
+  <%= render :partial => 'prompt', :locals => {:f => f} %>
+<% end %>
+
+<%= form_for @survey do |f| %>
+  <%= render :partial => 'update', :locals => {:f => f} %>
+<% end %>

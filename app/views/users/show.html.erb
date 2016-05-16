@@ -1,0 +1,73 @@
+<h1 class='title'>BOOMZZ</h1>
+
+
+<body>
+
+  <section class='left-content'>
+    <article>
+      <% @users.each do |user| %>
+      <div class='user'>
+        <h2 class='user_name'>
+          <%= user.name %>
+        </h2>
+        <div class="button-group">
+          <label>
+            <input type="radio" name="button-group" value="1">
+            <span class="button-group-item">1</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="2">
+            <span class="button-group-item">2</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="3">
+            <span class="button-group-item">3</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="4">
+            <span class="button-group-item">4</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="5">
+            <span class="button-group-item">5</span>
+          </label>
+        </div>
+      </div>
+      <hr style='border: none; margin: 1em;' />
+      <% end %>
+    </article>
+    <aside>
+      <h3>#LFTCNTNT</h3>
+    </aside>
+  </section>
+
+  <section class='right-content'>
+    <aside>
+      <h3>#RGHTCTNT</h3>
+    </aside>
+    <article>
+      <% @users.each do |user| %>
+      <div class='user'>
+        <h2 class='user_name'>
+          <%= user.name %>
+        </h2>
+      </div>
+      <hr style='border: none; margin: 1em;' />
+      <% end %>
+    </article>
+  </section>
+
+  <section class='solo-content'>
+    <article>
+      <% @users.each do |user| %>
+      <div class='user'>
+        <h2 class='user_name'>
+          <%= user.name %>
+        </h2>
+      </div>
+      <hr style='border: none; margin: 1em;' />
+      <% end %>
+    </article>
+  </section>
+
+</body>
